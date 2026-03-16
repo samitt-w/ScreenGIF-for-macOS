@@ -27,6 +27,8 @@ Hope it helps. :D
 
 ## Included in This Release
 
+- Refreshed 1.0.0 build with cleaner Screen Recording permission handling
+- Fixed the first-run ESC cancel issue in the capture selection overlay
 - Menu bar screen recording workflow
 - Freeform, Fixed Size, Aspect Ratio, and Snap to Window capture modes
 - Floating recording indicator with click-to-stop control
