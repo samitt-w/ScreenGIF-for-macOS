@@ -2,6 +2,8 @@
 
 Lightweight macOS menu bar app for recording part of your screen and exporting animated GIFs.
 
+![screen_ui](screen_ui.png)
+
 ---
 
 ## A little note from me :D
@@ -133,6 +135,126 @@ After that, ScreenGIF is ready to use.
 - Quality controls for FPS, colors, dithering, and resolution
 - Original / After workflow for comparing source and built GIFs
 - Export flow with recent GIF history
+
+---
+
+## How to use
+
+If this is your first time opening it, here is the short version:
+
+- **Left click** the menu bar icon to start a new recording
+- **Right click** the menu bar icon to open settings, recent GIFs, or quit
+- After recording, you will get a preview window where you can trim and export
+
+### 1. Start a recording
+
+Left click the ScreenGIF icon in your menu bar.
+
+![preview_001](preview_001.png)
+
+The screen will dim a bit and wait for you to choose an area.
+
+What you can do here:
+
+- click and drag to choose the part of the screen you want
+- press `ESC` if you want to cancel and go back out
+
+After you choose the area, recording starts.
+
+To stop recording:
+
+- click the menu bar icon again
+- or click the floating recording pill
+
+That is the basic recording loop.
+
+### 2. Open settings if you want to change how it records
+
+Right click the menu bar icon.
+
+![preview_002](preview_002.png)
+
+Then open **Settings...**
+
+![preview_setting](preview_setting.png)
+
+This is where you can choose things like:
+
+- capture mode: Freeform, Fixed Size, or Snap to Window
+- whether the cursor should be visible
+- GIF quality settings such as FPS, colours, dithering, and size
+- max recording duration
+
+If you do not want to touch any of this yet, that is completely okay. The app will still work with the current settings.
+
+### 3. Check your recording in the preview window
+
+After you stop recording, ScreenGIF opens the preview window.
+
+![preview_buildGIF](preview_buildGIF.png)
+
+This is the part that can feel a tiny bit confusing at first, so here is the easy version:
+
+- the big image at the top is your preview
+- the strip of small images underneath is the timeline
+- the yellow handles let you choose where the GIF should start and end
+- the quality controls let you change how heavy or light the GIF should be
+
+If you do not want to adjust much, you can just trim a little, click **Build GIF**, then **Export**.
+
+### 4. Understand `Original` and `After`
+
+ScreenGIF has 2 views:
+
+- **Original** = the recording you just made, before building the final GIF
+- **After** = the built GIF with your current trim and quality settings applied
+
+In **Original**:
+
+- you can move the trim handles
+- you can change the quality settings
+- you can click **Build GIF** when you are ready
+
+So basically:
+
+- **Original** is the place where you adjust things
+- **After** is the place where you check the final result
+
+After you click **Build GIF**, ScreenGIF prepares the final version and shows it in **After**.
+
+![preview_after](preview_after.png)
+
+In **After**:
+
+- you can review what the final GIF really looks like
+- you can compare it with the original
+- if it looks good, click **Export**
+- if not, go back to **Original**, adjust things, and build again
+
+### 5. Export your GIF
+
+When you are happy with the result:
+
+1. Click **Export**
+2. Choose where you want to save the file
+3. ScreenGIF will save the final GIF there
+
+If you do not want to keep the recording, click **Discard** instead.
+
+### Small tip if you want the easiest way
+
+If you just want the easiest path without playing with too many settings:
+
+1. Left click the menu bar icon
+2. Record a small area
+3. Stop recording
+4. Trim if needed
+5. Click **Build GIF**
+6. Click **Export**
+
+That is enough for most quick GIFs.
+
+
 
 ---
 
