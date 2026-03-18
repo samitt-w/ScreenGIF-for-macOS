@@ -30,6 +30,10 @@ Hope it helps. :D
 - Updated to `1.0.1`
 - Fixed the Screen Recording permission flow for local/Xcode builds
 - Fixed the first-run ESC cancel issue in the capture selection overlay
+- Fixed preview window close button cleanup so temp frames are not left behind
+- Fixed frames directory cleanup when GIF conversion fails
+- Added thread-safe access around recording state and frame count
+- Added a 60-second timeout for the ffmpeg subprocess so it cannot hang forever
 - Menu bar screen recording workflow
 - Freeform, Fixed Size, Aspect Ratio, and Snap to Window capture modes
 - Floating recording indicator with click-to-stop control
