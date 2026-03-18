@@ -1,6 +1,6 @@
-# ScreenGIF 1.0.0
+# ScreenGIF 1.0.1
 
-First release of ScreenGIF, a lightweight macOS menu bar app for recording part of your screen and exporting it as an animated GIF.
+ScreenGIF 1.0.1 refresh with the latest fixes and the new walkthrough update.
 
 ---
 
@@ -27,7 +27,8 @@ Hope it helps. :D
 
 ## Included in This Release
 
-- Refreshed 1.0.0 build with cleaner Screen Recording permission handling
+- Updated to `1.0.1`
+- Fixed the Screen Recording permission flow for local/Xcode builds
 - Fixed the first-run ESC cancel issue in the capture selection overlay
 - Menu bar screen recording workflow
 - Freeform, Fixed Size, Aspect Ratio, and Snap to Window capture modes
@@ -59,7 +60,7 @@ brew install ffmpeg
 
 ## Install
 
-1. Open `ScreenGIF-1.0.0.dmg`
+1. Open `ScreenGIF-1.0.1.dmg`
 2. Drag `ScreenGIF.app` into `Applications`
 3. Eject the DMG
 

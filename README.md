@@ -55,8 +55,8 @@ That password prompt is normal when installing software on macOS.
 
 ## Current Release
 
-- Version: `1.0.0`
-- DMG asset: `ScreenGIF-1.0.0.dmg`
+- Version: `1.0.1`
+- DMG asset: `ScreenGIF-1.0.1.dmg`
 
 ---
 
@@ -88,7 +88,7 @@ If you prefer to install things yourself, you can:
 
 ### Step 2: Install ScreenGIF
 
-1. Open `ScreenGIF-1.0.0.dmg`
+1. Open `ScreenGIF-1.0.1.dmg`
 2. Drag **ScreenGIF.app** into **Applications**
 3. Eject the DMG
 
@@ -268,9 +268,9 @@ That is enough for most quick GIFs.
 
 ## Included In This Folder
 
-- `ScreenGIF-1.0.0.dmg`
+- `ScreenGIF-1.0.1.dmg`
 - `ffmpeg_setup.command`
-- `RELEASE_NOTES_1.0.0.md`
+- `RELEASE_NOTES_1.0.1.md`
 - `LICENSE`
 
 ---
